@@ -1,0 +1,22 @@
+{
+  "name": "oauth2-server",
+  "version": "0.0.1",
+  "description": "oauth2 认证",
+  "main": "lunch.js",
+  "scripts": {
+    "start": "dotenvx run -f .env -f .env.local --overload -- node lunch.js",
+    "test": "test"
+  },
+  "keywords": [
+    "oauth2",
+    "认证"
+  ],
+  "author": "smileBeauty",
+  "license": "MIT",
+  "dependencies": {
+    "@dotenvx/dotenvx": "^1.6.4",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "oauth2-server": "^3.1.1"
+  }
+}
